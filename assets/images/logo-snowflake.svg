@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#0D1B2A"/>
+  <g transform="translate(60,58)" stroke="#29B5E8" stroke-width="4" stroke-linecap="round">
+    <!-- snowflake arms -->
+    <line x1="0" y1="-28" x2="0" y2="28"/>
+    <line x1="-24" y1="-14" x2="24" y2="14"/>
+    <line x1="24" y1="-14" x2="-24" y2="14"/>
+    <!-- branches on vertical -->
+    <line x1="-10" y1="-16" x2="0" y2="-26"/>
+    <line x1="10" y1="-16" x2="0" y2="-26"/>
+    <line x1="-10" y1="16" x2="0" y2="26"/>
+    <line x1="10" y1="16" x2="0" y2="26"/>
+    <!-- center -->
+    <circle cx="0" cy="0" r="5" fill="#29B5E8" stroke="none"/>
+  </g>
+  <text x="60" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#29B5E8">SNOWFLAKE</text>
+</svg>

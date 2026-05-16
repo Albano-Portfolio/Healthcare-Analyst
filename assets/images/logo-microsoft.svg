@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#0078D4"/>
+  <!-- Microsoft 4-square grid -->
+  <rect x="30" y="30" width="25" height="25" fill="#F35325"/>
+  <rect x="58" y="30" width="25" height="25" fill="#81BC06"/>
+  <rect x="30" y="58" width="25" height="25" fill="#05A6F0"/>
+  <rect x="58" y="58" width="25" height="25" fill="#FFBA08"/>
+  <text x="60" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">MICROSOFT</text>
+</svg>

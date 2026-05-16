@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#0D0D0D"/>
+  <!-- Neural net nodes -->
+  <circle cx="35" cy="40" r="7" fill="#FF5733"/>
+  <circle cx="35" cy="60" r="7" fill="#FF5733"/>
+  <circle cx="35" cy="80" r="7" fill="#FF5733"/>
+  <circle cx="60" cy="30" r="7" fill="#FF8C00"/>
+  <circle cx="60" cy="52" r="7" fill="#FF8C00"/>
+  <circle cx="60" cy="74" r="7" fill="#FF8C00"/>
+  <circle cx="85" cy="52" r="8" fill="#FF5733"/>
+  <!-- connections -->
+  <g stroke="#FF5733" stroke-width="1" opacity="0.4">
+    <line x1="42" y1="40" x2="53" y2="30"/>
+    <line x1="42" y1="40" x2="53" y2="52"/>
+    <line x1="42" y1="60" x2="53" y2="52"/>
+    <line x1="42" y1="60" x2="53" y2="74"/>
+    <line x1="42" y1="80" x2="53" y2="74"/>
+    <line x1="67" y1="30" x2="77" y2="52"/>
+    <line x1="67" y1="52" x2="77" y2="52"/>
+    <line x1="67" y1="74" x2="77" y2="52"/>
+  </g>
+  <text x="60" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#FF5733">DeepLearning.AI</text>
+</svg>

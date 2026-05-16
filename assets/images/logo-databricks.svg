@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#1C1C1C"/>
+  <!-- Databricks spark/shard logo -->
+  <g transform="translate(60,52)">
+    <polygon points="0,-30 26,15 -26,15" fill="#FF3621" opacity="0.9"/>
+    <polygon points="-20,-10 0,32 -32,10" fill="#FF9E0A" opacity="0.85"/>
+    <polygon points="20,-10 32,10 0,32" fill="#00A972" opacity="0.85"/>
+  </g>
+  <text x="60" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FF3621">DATABRICKS</text>
+</svg>

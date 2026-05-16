@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jason Albano | AI-Enabled Senior Healthcare Analyst</title>
+  <meta name="description" content="Jason Albano — Senior Healthcare Data Analyst & Business Intelligence Professional at Cigna. Leveraging AI, Databricks, Tableau, and advanced analytics to transform healthcare data into strategic insights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Noise texture overlay -->
+  <div class="noise"></div>
+
+  <!-- AI Neural Grid Background (canvas) -->
+  <canvas id="neuralCanvas"></canvas>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ════════════════════════════════
+       NAVIGATION
+       ════════════════════════════════ -->
+  <nav id="nav">
+    <div class="nav-brand">
+      <div class="nav-logo">JA</div>
+      <div class="nav-brand-text">
+        <span class="nav-name">Jason Albano</span>
+        <span class="nav-sub">AI-Enabled Healthcare Analytics</span>
+      </div>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#ai-lab">AI Lab</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="mailto:Japi782004@yahoo.com" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <ul>
+      <li><a href="#about" class="m-link">About</a></li>
+      <li><a href="#experience" class="m-link">Experience</a></li>
+      <li><a href="#skills" class="m-link">Skills</a></li>
+      <li><a href="#certifications" class="m-link">Certifications</a></li>
+      <li><a href="#education" class="m-link">Education</a></li>
+      <li><a href="#ai-lab" class="m-link">AI Lab</a></li>
+      <li><a href="#contact" class="m-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ════════════════════════════════
+       HERO
+       ════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <div class="hero-badge" id="heroBadge">
+          <span class="badge-pulse"></span>
+          <span class="badge-label">Open to Opportunities · Nashville, TN</span>
+        </div>
+
+        <h1 class="hero-h1">
+          <span class="h1-line line1">Jason</span>
+          <span class="h1-line line2">Albano</span>
+        </h1>
+
+        <div class="hero-role">
+          <div class="role-typewriter">
+            <span id="typeTarget"></span><span class="type-cursor">|</span>
+          </div>
+        </div>
+
+        <p class="hero-summary">
+          Senior Healthcare Data Analyst & Business Intelligence Professional at <strong>Cigna</strong>. Transforming complex healthcare data into strategic insights using AI, Databricks, Tableau, Power BI, SQL, and Python — with <strong>18+ years</strong> of progressive analytics experience.
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="hstat">
+            <span class="hstat-n" data-target="18">0</span><span class="hstat-u">+</span>
+            <span class="hstat-l">Years Exp</span>
+          </div>
+          <div class="hstat-div"></div>
+          <div class="hstat">
+            <span class="hstat-n" data-target="8">0</span><span class="hstat-u">+</span>
+            <span class="hstat-l">Employers</span>
+          </div>
+          <div class="hstat-div"></div>
+          <div class="hstat">
+            <span class="hstat-n" data-target="20">0</span><span class="hstat-u">+</span>
+            <span class="hstat-l">Credentials</span>
+          </div>
+          <div class="hstat-div"></div>
+          <div class="hstat">
+            <span class="hstat-n" data-target="50">0</span><span class="hstat-u">+</span>
+            <span class="hstat-l">Reports Built</span>
+          </div>
+        </div>
+
+        <div class="hero-ctas">
+          <a href="#experience" class="btn-primary">View Experience</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+          <a href="mailto:Japi782004@yahoo.com" class="btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: AI Orb Visual -->
+      <div class="hero-visual">
+        <div class="orb-container">
+          <div class="orb-ring ring-a"></div>
+          <div class="orb-ring ring-b"></div>
+          <div class="orb-ring ring-c"></div>
+          <div class="orb-core">
+            <div class="orb-initials">JA</div>
+            <div class="orb-shimmer"></div>
+          </div>
+          <!-- Floating skill chips -->
+          <div class="skill-chip chip-1">Databricks</div>
+          <div class="skill-chip chip-2">Tableau</div>
+          <div class="skill-chip chip-3">Power BI</div>
+          <div class="skill-chip chip-4">Python</div>
+          <div class="skill-chip chip-5">SQL</div>
+          <div class="skill-chip chip-6">AI/ML</div>
+          <div class="skill-chip chip-7">Snowflake</div>
+          <div class="skill-chip chip-8">Cigna</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-text">Scroll</div>
+      <div class="scroll-bar"><div class="scroll-fill"></div></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       ABOUT
+       ════════════════════════════════ -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-label"><span>01</span>About</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="sec-heading">Healthcare Data<br/><em>Meets Artificial Intelligence</em></h2>
+          <p class="about-lead">
+            With over 18 years transforming complex healthcare and business data into strategic decisions, I've built a career at the intersection of clinical intelligence, enterprise BI, and emerging AI technology.
+          </p>
+          <p class="about-body">
+            Currently serving as <strong>Business Analytics Advisor at Cigna</strong>, I lead complex analytics initiatives around Total Medical Cost, claims analysis, provider performance, and quality improvement — powered by tools like Databricks Genie, Microsoft Copilot, Cursor AI, Tableau, Power BI, SQL, and Python.
+          </p>
+          <p class="about-body">
+            I don't just analyze data — I architect AI-enabled workflows that accelerate reporting, surface cost-saving opportunities, and turn raw claims data into the kind of narrative that moves leadership to act.
+          </p>
+          <div class="about-expertise">
+            <h4>Areas of Expertise</h4>
+            <div class="expertise-tags">
+              <span>Healthcare Claims Analytics</span>
+              <span>AI-Enabled Analytics & Automation</span>
+              <span>Databricks & SQL Development</span>
+              <span>Tableau & Power BI Dashboards</span>
+              <span>Provider & Utilization Analytics</span>
+              <span>Executive Reporting</span>
+              <span>Python & SAS</span>
+              <span>Data Visualization & Storytelling</span>
+              <span>Process Improvement</span>
+              <span>Strategic Decision Support</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="info-card">
+            <div class="info-row">
+              <span class="info-icon">📍</span>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">Antioch, TN 37013</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">🏢</span>
+              <div>
+                <span class="info-label">Current Employer</span>
+                <span class="info-val">Cigna (Aug 2017 – Present)</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">💼</span>
+              <div>
+                <span class="info-label">Title</span>
+                <span class="info-val">Business Analytics Advisor</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">📞</span>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-val">615.598.1794</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">✉️</span>
+              <div>
+                <span class="info-label">Email</span>
+                <a href="mailto:Japi782004@yahoo.com" class="info-link">Japi782004@yahoo.com</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon">🔗</span>
+              <div>
+                <span class="info-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/jasonalbano" target="_blank" class="info-link">linkedin.com/in/jasonalbano</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cigna logo prominent -->
+          <div class="current-company-card">
+            <div class="ccc-label">Currently at</div>
+            <img src="assets/images/logo-cigna.svg" alt="Cigna" class="cigna-logo"/>
+            <div class="ccc-duration">Aug 2017 – Present · 7+ Years</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       EXPERIENCE
+       ════════════════════════════════ -->
+  <section id="experience" class="dark-section">
+    <div class="wrap">
+      <div class="sec-label"><span>02</span>Experience</div>
+      <h2 class="sec-heading centered">18+ Years of <em>Progressive Excellence</em></h2>
+
+      <div class="timeline">
+
+        <!-- Cigna -->
+        <div class="tl-item reveal-left">
+          <div class="tl-marker">
+            <div class="tl-dot active"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card featured-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">The Cigna Group</h3>
+                  <span class="tl-loc">Nashville, TN</span>
+                </div>
+                <span class="tl-badge current">Current</span>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Business Analytics Advisor</h4>
+                <span class="tl-period">Aug 2017 – Present</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Senior Healthcare Data Analyst & Claims/Data SME supporting complex analytics on Total Medical Cost, claims, provider performance, quality improvement, and operational reporting</li>
+              <li>Leverages advanced analytics, AI-enabled tools, and BI technologies to identify trends, uncover cost-saving opportunities, and deliver actionable insights for strategic decision-making</li>
+              <li>Utilizes <strong>Databricks Genie, Microsoft Copilot, Cursor AI, prompt engineering, SQL, Python,</strong> and automation to streamline workflows and enhance claims analysis</li>
+              <li>Develops executive dashboards, provider analytics, utilization reporting using <strong>Databricks, Tableau, Power BI, Looker, Altair Analytics Workbench, SAS,</strong> and Excel</li>
+              <li>Supports AI-assisted analytics involving cost containment, fraud detection, provider analytics, utilization management, and reporting optimization</li>
+            </ul>
+            <div class="tl-tech">
+              <span>Databricks</span><span>Tableau</span><span>Power BI</span><span>SQL</span><span>Python</span><span>SAS</span><span>Looker</span><span>Copilot</span><span>Cursor AI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- naviHealth -->
+        <div class="tl-item reveal-left" style="--delay:0.1s">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">naviHealth</h3>
+                  <span class="tl-loc">Nashville, TN</span>
+                </div>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Senior Reporting & Visualization Analyst</h4>
+                <span class="tl-period">Dec 2016 – Jul 2017</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Senior Data Analyst supporting internal and external reporting, analytics, and data visualization initiatives</li>
+              <li>Developed interactive dashboards, drill-down reporting using <strong>Tableau, SSAS, PerformancePoint,</strong> and SQL</li>
+              <li>Partnered with business, analytics, and IT teams to define requirements, ensure data integrity, and deliver scalable analytics solutions</li>
+            </ul>
+            <div class="tl-tech">
+              <span>Tableau</span><span>SSAS</span><span>PerformancePoint</span><span>SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AdvanceMed -->
+        <div class="tl-item reveal-left" style="--delay:0.15s">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">AdvanceMed (NCI)</h3>
+                  <span class="tl-loc">Nashville, TN</span>
+                </div>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Business Systems Analyst III</h4>
+                <span class="tl-period">Jan 2015 – Dec 2016</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Delivered mission-critical BI and analytics supporting operational and strategic decision-making</li>
+              <li>Designed, developed, and maintained dashboards using <strong>SSRS, SSAS, PowerPivot, SQL Server</strong></li>
+              <li>Contributed to a team awarded <strong>CMMI Level III Rating</strong> for process and quality excellence</li>
+            </ul>
+            <div class="tl-tech">
+              <span>SSRS</span><span>SSAS</span><span>PowerPivot</span><span>SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- UnitedHealth -->
+        <div class="tl-item reveal-left" style="--delay:0.2s">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">UnitedHealth Group</h3>
+                  <span class="tl-loc">Baltimore, MD (Remote)</span>
+                </div>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Senior Reporting Analyst</h4>
+                <span class="tl-period">Oct 2013 – Aug 2014</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Developed operational reports, KPI dashboards using SSRS, PerformancePoint, SharePoint</li>
+              <li>Trained and mentored junior analysts on PowerPivot, Power View, SSRS development</li>
+            </ul>
+            <div class="tl-tech">
+              <span>SSRS</span><span>PerformancePoint</span><span>SharePoint</span><span>SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MedSolutions -->
+        <div class="tl-item reveal-left" style="--delay:0.25s">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">MedSolutions</h3>
+                  <span class="tl-loc">Franklin, TN</span>
+                </div>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Medical Economics Analyst</h4>
+                <span class="tl-period">Nov 2012 – Oct 2013</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Provided analytical insights using healthcare data from <strong>40+ insurance companies</strong> (Cigna, Aetna, BCBS, HealthSpring) supporting sales growth and pricing strategy</li>
+              <li>Automated <strong>50+ client reports</strong> using SQL, SSRS, SSAS, PowerPivot, SAS, and Tableau</li>
+              <li>Conducted savings forecasts, pricing analysis, baseline studies, and trend analysis</li>
+            </ul>
+            <div class="tl-tech">
+              <span>SQL</span><span>Tableau</span><span>SAS</span><span>SSRS</span><span>SSAS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ardent Health -->
+        <div class="tl-item reveal-left" style="--delay:0.3s">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">Ardent Health Services</h3>
+                  <span class="tl-loc">Nashville, TN</span>
+                </div>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Data Warehouse Analyst</h4>
+                <span class="tl-period">Feb 2009 – Oct 2012</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Supported development and implementation of a healthcare data warehouse for health plan operations</li>
+              <li>Managed data implementation projects for multiple vendors: Ingenix, Express Scripts, Delta Dental, Facets, Trizetto</li>
+              <li>Trained analysts on reporting tools and data visualization best practices</li>
+            </ul>
+            <div class="tl-tech">
+              <span>Oracle</span><span>SAS</span><span>Business Objects</span><span>SSRS</span><span>SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- HealthSpring -->
+        <div class="tl-item reveal-left" style="--delay:0.35s">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-card-top">
+              <div class="tl-company-row">
+                <div class="tl-company-info">
+                  <h3 class="tl-company">HealthSpring Inc.</h3>
+                  <span class="tl-loc">Nashville, TN</span>
+                </div>
+              </div>
+              <div class="tl-role-row">
+                <h4 class="tl-role">Data Analyst II → Data Analyst I</h4>
+                <span class="tl-period">Oct 2006 – Jan 2009</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Developed dashboards, complex SQL queries, and Crystal Reports to identify auditing trends and support executive decision-making</li>
+              <li>Collaborated with Special Investigation Unit on medical fraud, abuse, and claims overpayment detection</li>
+              <li>Designed SharePoint intranet sites and developed VBA applications to improve departmental productivity</li>
+            </ul>
+            <div class="tl-tech">
+              <span>SQL Server</span><span>Crystal Reports</span><span>SharePoint</span><span>VBA</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /timeline -->
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       SKILLS
+       ════════════════════════════════ -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-label"><span>03</span>Skills & Tools</div>
+      <h2 class="sec-heading">Technical <em>Arsenal</em></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-cat reveal-up">
+          <div class="skill-cat-header">
+            <div class="scat-icon">⬡</div>
+            <h3>AI & Machine Learning</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item"><span class="sk-name">Databricks Genie / AI Functions</span><div class="sk-bar"><div class="sk-fill" data-w="92"></div></div><span class="sk-pct">92%</span></div>
+            <div class="skill-item"><span class="sk-name">Microsoft Copilot</span><div class="sk-bar"><div class="sk-fill" data-w="88"></div></div><span class="sk-pct">88%</span></div>
+            <div class="skill-item"><span class="sk-name">Cursor AI</span><div class="sk-bar"><div class="sk-fill" data-w="85"></div></div><span class="sk-pct">85%</span></div>
+            <div class="skill-item"><span class="sk-name">Prompt Engineering</span><div class="sk-bar"><div class="sk-fill" data-w="90"></div></div><span class="sk-pct">90%</span></div>
+            <div class="skill-item"><span class="sk-name">GenAI for Healthcare</span><div class="sk-bar"><div class="sk-fill" data-w="87"></div></div><span class="sk-pct">87%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal-up" style="--delay:0.1s">
+          <div class="skill-cat-header">
+            <div class="scat-icon">◈</div>
+            <h3>Data Platforms</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item"><span class="sk-name">Databricks / Apache Spark</span><div class="sk-bar"><div class="sk-fill" data-w="93"></div></div><span class="sk-pct">93%</span></div>
+            <div class="skill-item"><span class="sk-name">SQL / SQL Server</span><div class="sk-bar"><div class="sk-fill" data-w="97"></div></div><span class="sk-pct">97%</span></div>
+            <div class="skill-item"><span class="sk-name">Snowflake</span><div class="sk-bar"><div class="sk-fill" data-w="82"></div></div><span class="sk-pct">82%</span></div>
+            <div class="skill-item"><span class="sk-name">SAS</span><div class="sk-bar"><div class="sk-fill" data-w="88"></div></div><span class="sk-pct">88%</span></div>
+            <div class="skill-item"><span class="sk-name">Python (Pandas, NumPy)</span><div class="sk-bar"><div class="sk-fill" data-w="84"></div></div><span class="sk-pct">84%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal-up" style="--delay:0.2s">
+          <div class="skill-cat-header">
+            <div class="scat-icon">◉</div>
+            <h3>Visualization & BI</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item"><span class="sk-name">Tableau</span><div class="sk-bar"><div class="sk-fill" data-w="95"></div></div><span class="sk-pct">95%</span></div>
+            <div class="skill-item"><span class="sk-name">Microsoft Power BI</span><div class="sk-bar"><div class="sk-fill" data-w="91"></div></div><span class="sk-pct">91%</span></div>
+            <div class="skill-item"><span class="sk-name">Looker</span><div class="sk-bar"><div class="sk-fill" data-w="80"></div></div><span class="sk-pct">80%</span></div>
+            <div class="skill-item"><span class="sk-name">Altair Analytics Workbench</span><div class="sk-bar"><div class="sk-fill" data-w="78"></div></div><span class="sk-pct">78%</span></div>
+            <div class="skill-item"><span class="sk-name">SSRS / SSAS</span><div class="sk-bar"><div class="sk-fill" data-w="90"></div></div><span class="sk-pct">90%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-cat reveal-up" style="--delay:0.3s">
+          <div class="skill-cat-header">
+            <div class="scat-icon">🏥</div>
+            <h3>Healthcare Domain</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item"><span class="sk-name">Healthcare Claims Analysis</span><div class="sk-bar"><div class="sk-fill" data-w="98"></div></div><span class="sk-pct">98%</span></div>
+            <div class="skill-item"><span class="sk-name">Total Medical Cost Analytics</span><div class="sk-bar"><div class="sk-fill" data-w="95"></div></div><span class="sk-pct">95%</span></div>
+            <div class="skill-item"><span class="sk-name">Provider Performance Analytics</span><div class="sk-bar"><div class="sk-fill" data-w="92"></div></div><span class="sk-pct">92%</span></div>
+            <div class="skill-item"><span class="sk-name">HEDIS / Quality Reporting</span><div class="sk-bar"><div class="sk-fill" data-w="88"></div></div><span class="sk-pct">88%</span></div>
+            <div class="skill-item"><span class="sk-name">Fraud, Waste & Abuse Detection</span><div class="sk-bar"><div class="sk-fill" data-w="85"></div></div><span class="sk-pct">85%</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tech Stack Marquee -->
+      <div class="marquee-wrap">
+        <div class="marquee-label">TECH STACK</div>
+        <div class="marquee">
+          <div class="marquee-inner">
+            <span>Databricks</span><span>•</span>
+            <span>Tableau</span><span>•</span>
+            <span>Power BI</span><span>•</span>
+            <span>SQL</span><span>•</span>
+            <span>Python</span><span>•</span>
+            <span>SAS</span><span>•</span>
+            <span>Snowflake</span><span>•</span>
+            <span>Looker</span><span>•</span>
+            <span>Databricks Genie</span><span>•</span>
+            <span>Copilot</span><span>•</span>
+            <span>Cursor AI</span><span>•</span>
+            <span>AWS</span><span>•</span>
+            <span>Azure</span><span>•</span>
+            <span>SSRS</span><span>•</span>
+            <span>SSAS</span><span>•</span>
+            <span>Altair</span><span>•</span>
+            <span>Spark</span><span>•</span>
+            <span>Delta Lake</span><span>•</span>
+            <!-- duplicate for infinite loop -->
+            <span>Databricks</span><span>•</span>
+            <span>Tableau</span><span>•</span>
+            <span>Power BI</span><span>•</span>
+            <span>SQL</span><span>•</span>
+            <span>Python</span><span>•</span>
+            <span>SAS</span><span>•</span>
+            <span>Snowflake</span><span>•</span>
+            <span>Looker</span><span>•</span>
+            <span>Databricks Genie</span><span>•</span>
+            <span>Copilot</span><span>•</span>
+            <span>Cursor AI</span><span>•</span>
+            <span>AWS</span><span>•</span>
+            <span>Azure</span><span>•</span>
+            <span>SSRS</span><span>•</span>
+            <span>SSAS</span><span>•</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       CERTIFICATIONS
+       ════════════════════════════════ -->
+  <section id="certifications" class="dark-section">
+    <div class="wrap">
+      <div class="sec-label"><span>04</span>Certifications</div>
+      <h2 class="sec-heading centered">Verified <em>Credentials</em></h2>
+
+      <!-- Core Certs -->
+      <div class="certs-tier-label">Formal Certifications</div>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal-scale">
+          <div class="cert-logo-wrap">
+            <img src="assets/images/logo-tableau.svg" alt="Tableau" class="cert-logo"/>
+          </div>
+          <div class="cert-info">
+            <span class="cert-org">Tableau</span>
+            <h4 class="cert-name">Tableau Desktop Specialist</h4>
+            <span class="cert-date">July 2024</span>
+          </div>
+          <div class="cert-badge-status">Certified</div>
+        </div>
+
+        <div class="cert-card reveal-scale" style="--delay:0.08s">
+          <div class="cert-logo-wrap">
+            <img src="assets/images/logo-databricks.svg" alt="Databricks" class="cert-logo"/>
+          </div>
+          <div class="cert-info">
+            <span class="cert-org">Databricks</span>
+            <h4 class="cert-name">Databricks Certified Data Analyst Associate</h4>
+            <span class="cert-date">August 2024</span>
+          </div>
+          <div class="cert-badge-status">Certified</div>
+        </div>
+
+        <div class="cert-card reveal-scale" style="--delay:0.16s">
+          <div class="cert-logo-wrap">
+            <img src="assets/images/logo-snowflake.svg" alt="Snowflake" class="cert-logo"/>
+          </div>
+          <div class="cert-info">
+            <span class="cert-org">Snowflake</span>
+            <h4 class="cert-name">SnowPro Core Certification</h4>
+            <span class="cert-date">May 2026</span>
+          </div>
+          <div class="cert-badge-status">Certified</div>
+        </div>
+
+        <div class="cert-card reveal-scale" style="--delay:0.24s">
+          <div class="cert-logo-wrap">
+            <img src="assets/images/logo-microsoft.svg" alt="Microsoft" class="cert-logo"/>
+          </div>
+          <div class="cert-info">
+            <span class="cert-org">Microsoft</span>
+            <h4 class="cert-name">Microsoft Certified: AI Business Professional</h4>
+            <span class="cert-date">May 2026</span>
+          </div>
+          <div class="cert-badge-status">Certified</div>
+        </div>
+
+      </div>
+
+      <!-- Education Certs -->
+      <div class="certs-tier-label" style="margin-top:56px">University Certificates</div>
+      <div class="edu-certs-grid">
+
+        <div class="edu-cert-card reveal-up">
+          <div class="edu-cert-logo-wrap">
+            <img src="assets/images/logo-vanderbilt.svg" alt="Vanderbilt" class="edu-cert-logo"/>
+          </div>
+          <div class="edu-cert-info">
+            <span class="edu-cert-school">Vanderbilt University</span>
+            <h4>Certificate in Generative AI — Data Analyst Specialization</h4>
+            <span class="edu-cert-year">2026</span>
+          </div>
+        </div>
+
+        <div class="edu-cert-card reveal-up" style="--delay:0.1s">
+          <div class="edu-cert-logo-wrap">
+            <img src="assets/images/logo-johnshopkins.svg" alt="Johns Hopkins" class="edu-cert-logo"/>
+          </div>
+          <div class="edu-cert-info">
+            <span class="edu-cert-school">Johns Hopkins University</span>
+            <h4>Certificate in Health Informatics</h4>
+            <span class="edu-cert-year">2026</span>
+          </div>
+        </div>
+
+        <div class="edu-cert-card reveal-up" style="--delay:0.2s">
+          <div class="edu-cert-logo-wrap">
+            <div class="edu-cert-logo-placeholder" style="background:#CC0000">
+              <span style="font-size:22px;font-weight:900;color:#fff">UH</span>
+            </div>
+          </div>
+          <div class="edu-cert-info">
+            <span class="edu-cert-school">University of Houston</span>
+            <h4>Certificate in Value-Based Care & the U.S. Healthcare System</h4>
+            <span class="edu-cert-year">2026</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Professional Development -->
+      <div class="certs-tier-label" style="margin-top:56px">Professional Development</div>
+      <div class="prodev-grid">
+        <div class="prodev-item reveal-up">
+          <img src="assets/images/logo-google.svg" alt="Google" class="prodev-logo"/>
+          <div>
+            <div class="prodev-title">Generative AI for Healthcare</div>
+            <div class="prodev-org">Google · 2026</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.05s">
+          <img src="assets/images/logo-deeplearning.svg" alt="DeepLearning.AI" class="prodev-logo"/>
+          <div>
+            <div class="prodev-title">AI Prompting for Everyone</div>
+            <div class="prodev-org">DeepLearning.AI · 2026</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.1s">
+          <img src="assets/images/logo-databricks.svg" alt="Databricks" class="prodev-logo"/>
+          <div>
+            <div class="prodev-title">Generative AI Fundamentals Accreditation</div>
+            <div class="prodev-org">Databricks Academy · April 2026</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.15s">
+          <img src="assets/images/logo-microsoft.svg" alt="Microsoft" class="prodev-logo"/>
+          <div>
+            <div class="prodev-title">Fundamental AI Concepts</div>
+            <div class="prodev-org">Microsoft · Feb 2025</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.2s">
+          <img src="assets/images/logo-aws.svg" alt="AWS" class="prodev-logo"/>
+          <div>
+            <div class="prodev-title">AWS Technical Essentials + Cloud Practitioner Essentials</div>
+            <div class="prodev-org">Amazon Web Services · Feb 2025</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.25s">
+          <div class="prodev-logo prodev-logo-placeholder" style="background:#0077B5">
+            <span style="font-size:14px;font-weight:900;color:#fff">in</span>
+          </div>
+          <div>
+            <div class="prodev-title">Accelerate Development with AI & Cursor</div>
+            <div class="prodev-org">LinkedIn · May 2026</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.3s">
+          <div class="prodev-logo prodev-logo-placeholder" style="background:#0D1B2A">
+            <span style="font-size:11px;font-weight:700;color:#fff">DB</span>
+          </div>
+          <div>
+            <div class="prodev-title">End-to-End Data Engineering with Databricks</div>
+            <div class="prodev-org">LinkedIn · Mar 2025</div>
+          </div>
+        </div>
+        <div class="prodev-item reveal-up" style="--delay:0.35s">
+          <div class="prodev-logo prodev-logo-placeholder" style="background:#1B3A5C">
+            <span style="font-size:11px;font-weight:700;color:#fff">AL</span>
+          </div>
+          <div>
+            <div class="prodev-title">Data Analyst & Governance Advocate</div>
+            <div class="prodev-org">Alation · Aug 2024</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       EDUCATION
+       ════════════════════════════════ -->
+  <section id="education">
+    <div class="wrap">
+      <div class="sec-label"><span>05</span>Education</div>
+      <h2 class="sec-heading">Academic <em>Foundation</em></h2>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal-up">
+          <div class="edu-card-logo">
+            <img src="assets/images/logo-uofl.svg" alt="University of Louisville"/>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-degree">Bachelor of Arts</span>
+            <h3 class="edu-field">Political Science</h3>
+            <div class="edu-school">University of Louisville</div>
+            <p class="edu-note">Foundation in analysis, research, and critical thinking — applied throughout a career solving complex healthcare business problems through data.</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.12s">
+          <div class="edu-card-logo logo-split">
+            <img src="assets/images/logo-vanderbilt.svg" alt="Vanderbilt"/>
+            <img src="assets/images/logo-johnshopkins.svg" alt="Johns Hopkins"/>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-degree">2026 Certificates</span>
+            <h3 class="edu-field">AI, Health Informatics & Value-Based Care</h3>
+            <div class="edu-school">Vanderbilt · Johns Hopkins · U. of Houston</div>
+            <p class="edu-note">Pursuing cutting-edge certifications to lead AI-driven transformation in healthcare analytics — staying ahead of the industry inflection point.</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.24s">
+          <div class="edu-card-logo logo-multi">
+            <img src="assets/images/logo-databricks.svg" alt="Databricks"/>
+            <img src="assets/images/logo-google.svg" alt="Google"/>
+            <img src="assets/images/logo-aws.svg" alt="AWS"/>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-degree">Continuous Learning</span>
+            <h3 class="edu-field">AI, Data Engineering & Cloud</h3>
+            <div class="edu-school">Databricks · Google · AWS · Microsoft · LinkedIn</div>
+            <p class="edu-note">Committed to staying at the leading edge of AI and data technology through platform-specific certifications, hands-on labs, and industry training.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       AI LAB — Interactive Showcase
+       ════════════════════════════════ -->
+  <section id="ai-lab" class="dark-section">
+    <div class="wrap">
+      <div class="sec-label"><span>06</span>AI Lab</div>
+      <h2 class="sec-heading centered">Not Just Analyzing Data.<br/><em>Augmenting Intelligence.</em></h2>
+      <p class="ai-lab-desc">
+        Here's how I apply AI tools in real healthcare analytics workflows — turning what used to take days into minutes.
+      </p>
+
+      <!-- Use Case Cards -->
+      <div class="ai-use-cases">
+        <div class="ai-uc-card reveal-up" data-case="0">
+          <div class="ai-uc-num">01</div>
+          <div class="ai-uc-icon">🧠</div>
+          <h4>Databricks Genie — NL to SQL</h4>
+          <p>Enable clinical and business stakeholders to query complex claims lakehouse tables using plain English — Genie translates intent to optimized Spark SQL instantly.</p>
+          <div class="ai-uc-tools"><span>Databricks Genie</span><span>SQL</span><span>Spark</span></div>
+        </div>
+        <div class="ai-uc-card reveal-up" style="--delay:0.08s">
+          <div class="ai-uc-num">02</div>
+          <div class="ai-uc-icon">🤖</div>
+          <h4>Copilot — Automated Reporting</h4>
+          <p>Use Microsoft Copilot to draft executive summary narratives from Power BI datasets, convert analyst findings to polished presentations, and automate documentation.</p>
+          <div class="ai-uc-tools"><span>Copilot</span><span>Power BI</span><span>Excel</span></div>
+        </div>
+        <div class="ai-uc-card reveal-up" style="--delay:0.16s">
+          <div class="ai-uc-num">03</div>
+          <div class="ai-uc-icon">⚡</div>
+          <h4>Cursor AI — Code Acceleration</h4>
+          <p>Accelerate SQL, Python, and DAX development using AI-assisted coding — reducing development time on complex analytics scripts, stored procedures, and notebooks.</p>
+          <div class="ai-uc-tools"><span>Cursor AI</span><span>Python</span><span>SQL</span></div>
+        </div>
+        <div class="ai-uc-card reveal-up" style="--delay:0.24s">
+          <div class="ai-uc-num">04</div>
+          <div class="ai-uc-icon">🔍</div>
+          <h4>AI-Assisted FWA Detection</h4>
+          <p>Apply AI-assisted pattern recognition and anomaly detection on claims data to surface potential fraud, waste, and abuse signals for downstream investigation.</p>
+          <div class="ai-uc-tools"><span>Python</span><span>Databricks</span><span>ML</span></div>
+        </div>
+      </div>
+
+      <!-- Interactive Live Terminal -->
+      <div class="lab-terminal-section">
+        <div class="lab-terminal-header">
+          <h3>Live AI Code Lab</h3>
+          <p>Click a scenario to see real healthcare AI code patterns I work with daily</p>
+        </div>
+
+        <div class="lab-scenarios">
+          <button class="lab-scenario-btn active" data-scenario="0">NL → SQL with Genie</button>
+          <button class="lab-scenario-btn" data-scenario="1">Risk Stratification</button>
+          <button class="lab-scenario-btn" data-scenario="2">FWA Detection</button>
+          <button class="lab-scenario-btn" data-scenario="3">Prompt Engineering</button>
+        </div>
+
+        <div class="lab-terminal">
+          <div class="terminal-titlebar">
+            <div class="ttb-dots">
+              <span class="ttb-d red"></span>
+              <span class="ttb-d yellow"></span>
+              <span class="ttb-d green"></span>
+            </div>
+            <span class="ttb-file" id="terminalFile">databricks_genie_nlp.py</span>
+            <span class="ttb-lang">Python / Spark SQL</span>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+            <!-- code injected by JS -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       CONTACT
+       ════════════════════════════════ -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-label"><span>07</span>Contact</div>
+      <h2 class="sec-heading">Let's <em>Connect</em></h2>
+
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-pitch">
+            Whether you're looking for a data and analytics leader, exploring a collaboration on AI-enabled healthcare initiatives, or want to discuss the intersection of data science and healthcare strategy — I'd love to hear from you.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:Japi782004@yahoo.com" class="c-link">
+              <div class="c-link-icon">✉</div>
+              <div class="c-link-text">
+                <span class="c-label">Email</span>
+                <span class="c-val">Japi782004@yahoo.com</span>
+              </div>
+              <span class="c-arrow">→</span>
+            </a>
+            <a href="tel:6155981794" class="c-link">
+              <div class="c-link-icon">📞</div>
+              <div class="c-link-text">
+                <span class="c-label">Phone</span>
+                <span class="c-val">615.598.1794</span>
+              </div>
+              <span class="c-arrow">→</span>
+            </a>
+            <a href="https://linkedin.com/in/jasonalbano" target="_blank" class="c-link">
+              <div class="c-link-icon" style="font-size:14px;font-weight:900">in</div>
+              <div class="c-link-text">
+                <span class="c-label">LinkedIn</span>
+                <span class="c-val">linkedin.com/in/jasonalbano</span>
+              </div>
+              <span class="c-arrow">→</span>
+            </a>
+            <div class="c-link static">
+              <div class="c-link-icon">📍</div>
+              <div class="c-link-text">
+                <span class="c-label">Location</span>
+                <span class="c-val">Antioch, TN 37013 · Nashville Area</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" name="name" placeholder="Jane Smith" required/>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="jane@company.com" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Company / Organization</label>
+              <input type="text" name="company" placeholder="Acme Health System"/>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <select name="subject">
+                <option value="">Select a topic...</option>
+                <option>Job Opportunity</option>
+                <option>Consulting Engagement</option>
+                <option>Analytics Collaboration</option>
+                <option>Speaking / Panels</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" rows="4" placeholder="Tell me about what you're building or looking for..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </form>
+          <div class="form-success-msg" id="formSuccess">
+            <div class="fsm-icon">✓</div>
+            <h4>Message received!</h4>
+            <p>Thanks for reaching out, I'll respond within 1–2 business days.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       FOOTER
+       ════════════════════════════════ -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">JA</span>
+          <div>
+            <div class="footer-name">Jason L. Albano</div>
+            <div class="footer-title-sm">Business Analytics Advisor · AI-Enabled Healthcare Analytics</div>
+          </div>
+        </div>
+        <div class="footer-quote">
+          <em>"Data is the heartbeat of modern healthcare.<br/>AI is the stethoscope."</em>
+        </div>
+        <div class="footer-links-col">
+          <a href="mailto:Japi782004@yahoo.com">Japi782004@yahoo.com</a>
+          <a href="https://linkedin.com/in/jasonalbano" target="_blank">LinkedIn</a>
+          <a href="tel:6155981794">615.598.1794</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jason Albano · Nashville, TN</span>
+        <span class="footer-stack">Built with HTML · CSS · Vanilla JS · No frameworks</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
